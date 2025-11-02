@@ -6,7 +6,7 @@ Awarded **3rd place** and sponsor prizes for back-end design and primary asset c
 You can check python version by running ``python3 --version`` on macOS/Linux and ``python --version`` on Windows powershell/cmd
 
 ## Setup (from repo root)
-Using a virtual environment to run the repo for a demo. If you wish to install dependencies locally, ignore the first 2 lines starting the virtual environment:
+Using a virtual environment to run the repo for a demo. ***If you wish to install dependencies locally, ignore the first 2 lines starting the virtual environment***:
 ### macOS / Linux
 ```bash
 python3 -m venv venv
@@ -29,7 +29,7 @@ pip install -r requirements.txt
 python game.py                     # Or `python3 game.py` on some systems
 ```
 *Alternatively, to ``python game.py``, you can use ``python editor.py`` to open the level editor*\
-When done with the demo:
+If you used the virtual environment, then type this into the terminal to deactivate it when done with the demo:
 ```bash
 deactivate  # Shut down the virtual environment
 ```
